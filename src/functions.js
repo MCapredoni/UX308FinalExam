@@ -3,13 +3,22 @@ function hello(name){
 }
 
 function colour_mix(rgb_colour1, rgb_colour2){
-    const rgb_colour = rgb_colour1 + rgb_colour2;
-    return rgb_colour;
+    const rgb_colour1 = ("red", "green", "blue");
+    const rgb_colour2 = ("red", "green", "blue");
+    if (rgb_colour1 = "red" && rgb_colour2 = "green"){
+        return "Yellow";
+    }
+    if (rgb_colour1 = "blue" && rgb_colour2 = "green"){
+        return "Aqua";
+    }
+    if (rgb_colour1 === "red" && rgb_colour2 = "blue"){
+        return "Fuchsia";
+    }
 }
 
 function largest_product(val1, val2, val3){
     const value = (val1, val2, val3)
-    
+    if 
     return value;
 }
 
